@@ -1,5 +1,5 @@
 /** Configuration **/
-const nanoNodeUrl = `http://[::1]:7076`; // Nano node RPC url
+const nanoNodeUrl = `http://[::1]:7076`; // Banano node RPC url
 const listeningPort = 9950; // Port this app will listen on
 
 const useRedisCache = false; // Change this if you are not running a Redis server.  Will use in memory cache instead.
@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(express.static('static'));
 app.get('/*', (req, res) => res.sendFile(`${__dirname}/static/index.html`));
 
-// Allow certain requests to the Nano RPC and cache work requests
+// Allow certain requests to the Banano RPC and cache work requests
 app.post('/api/node-api', async (req, res) => {
   const allowedActions = [
     'account_history',
@@ -56,7 +56,7 @@ app.post('/api/node-api', async (req, res) => {
     workRequest = true;
   }
 
-  // Send the request to the Nano node and return the response
+  // Send the request to the Banano node and return the response
   request({ method: 'post', uri: nanoNodeUrl, body: req.body, json: true, family: 6 })
     .then(proxyRes => {
       if (workRequest && proxyRes && proxyRes.work) {

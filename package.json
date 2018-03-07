@@ -1,22 +1,60 @@
-{
-  "name": "rai-cloud",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "cors": "^2.8.4",
-    "express": "^4.16.2",
-    "knex": "^0.14.2",
-    "pg": "^7.4.1",
-    "redis": "^2.8.0",
-    "request": "^2.83.0",
-    "request-promise-native": "^1.0.5"
-  }
-}
+     ____                           ___
+    |  _ \  ___              _   _.' _ `.
+ _  | [_) )' _ `._   _  ___ ! \ | | | | |    _
+|:;.|  _ <| (_) | \ | |' _ `|  \| | | | |  .:;|
+|   `.[_) )  _  |  \| | (_) |     | | | |.',..|
+':.   `. /| | | |     |  _  | |\  | | |.' :;::'
+ !::,   `-!_| | | |\  | | | | | \ !_L.'   ':;!
+ !::;       ":;:!.!.\_!_!_!.!-'-':;:''    '''!
+ ';:'        `::;::;'             ''     .,  .
+   `:     .,.    `'    .::... .      .::;::;'
+     `..:;::;:..      ::;::;:;:;,    :;::;'
+       "-:;::;:;:      ':;::;:''     ;.-'
+           ""`---...________...---'"" 
+
+
+
+
+
+**Q. Is this real life? is this just fantasy?**
+
+A. Banano is a real life cryptocurrency, utilizing a novel DAG (Directed Acyclic Graph) based block-lettuce™ architecture, where each user possesses their own blockchain.
+
+**Q. What is the website?**
+
+A. The official website is http://banano.co.in although it's still in production. Please get in touch if you'd like to help out on it.
+
+**Q. What are we forked from?**
+
+A. Nano Currency (aka RaiBlocks)
+
+**Q. What is the total supply for Banano?**
+A. 3.4 Billion coins. (10x the initial Nano supply).
+
+**Q. How do I get some Banano?**
+
+A. We have divided the total supply into different pots. Airdrops, Banano Farming (mining), TipBots/Competitions and a small ICO.
+
+**Q. I have an issue/question, who do I contact?**
+
+A. You can contact any of the CORE team via Discord/Reddit.
+
+**Q. What is our address prefix?**
+
+A. All Banano accounts will start with the prefix ban_.
+
+**Q. Where can I buy Banano?**
+
+A. As above, Airdrops, mining and ICO will be the only way to get Banano until we are listed on an exchange.
+
+**Q. How do I get a wallet?**
+
+A. We currently support a web wallet at http://vault.banano.co.in for the test-net trials. A fully downloadable offline wallet will be released with main-net 
+
+**Q. Do you have an open github?**
+
+A. Yes, http://github.com/bananocoin
+
+**Q. What about reddit?**
+
+A. http://reddit.com/r/bananocoin
